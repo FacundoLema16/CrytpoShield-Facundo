@@ -1,0 +1,173 @@
+/*Estructura*/ 
+
+/*Navegador*/
+.logo{
+    width: 5vw;
+}
+
+.large{
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid; 
+    color: black;
+    margin-left: 1%;
+  
+    .large1{
+        font-size: 1.6rem;
+        text-decoration-line: underline;
+        text-decoration-style: solid; 
+        color:black;
+        margin-left: 1%;
+        margin-top: 10%;
+    }
+   
+         .large2{
+                font-size: 1.6rem;
+                text-decoration-line: underline;
+                text-decoration-style: solid; 
+                color: black;
+                margin-left: 1%;
+                margin-top: 10%;
+        }
+}
+
+#mainheader{
+    background-image: url(/img/UltimaPrueba3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+/*Patrocinio*/
+
+#patrocinio{
+    background-image: map-get($patromap, fondo );
+    padding-top: map-get($patromap, pdtop );
+    padding-bottom: map-get($patromap, pdbott );
+
+
+                .patrocinio-box{
+                         float: left;
+                        width: 32%;
+                        text-align: center;
+        
+          }
+        
+                     .patrocinio-box img{
+                       height: 145px;
+                        margin-top: 27%;
+                  }
+
+    }
+    
+    
+    
+    /*Fundadores*/
+    
+    
+    #fundadores{
+        text-align: map-get($fundamap, textt );
+        padding-bottom: map-get($fundamap, pdbott );
+        margin-top: map-get($fundamap, mgtop );
+    
+
+        #fundadores h4{
+            padding-bottom: 20px;
+        }
+        
+            .fundadores-box{
+                    float: left;
+                    width: 33%;
+                    padding: 50px;
+            }
+        
+                    .fundadores-box img{
+                    width: 220px;
+                    text-align: center;
+                    }
+        
+                        #redes-fundadores{
+                        display: block;
+        
+                        }
+                                .REDES a{
+                                 color:black;
+                             }
+    
+    }
+
+    
+    /*Guia*/
+    
+    
+    #guia{
+        padding-bottom: 50px;
+        margin-top: 40%;
+
+        #guia p{
+            text-align: center;
+            padding-top: 100px;
+        }
+        
+        #guia h3{
+            text-align: center;
+        }
+            
+    }
+    
+   div{
+       &guia-1{
+           background-color:black;
+       }
+   }
+    
+    
+        
+    
+    
+    /*¿Que Somos?*/
+    
+    #quesomos{
+        text-align: center;
+        margin-top: 30%;
+
+        #quesomos p{
+            text-align: center;
+            margin-top: 10%;
+        }
+    }
+    
+
+    
+    
+    /*Footer*/
+    
+    #mainfooter{
+        text-align: center;
+        padding: 30px;
+        background-image: url(/img/istockphoto-1128458526-170667a.jpg);
+    }
+    .redes-sociales{
+        float: map-get($redmap, fl );
+        display: map-get($redmap, dis );
+        width: map-get($redmap , wid );
+        height: map-get($redmap, hei );
+     
+
+        .redes-sociales a{
+            margin: 0 5px;
+            line-height: 5px;
+            font-size: 30px;
+            color: rgb(2, 68, 99);
+            box-shadow: 0px 5px 5px 0px rgb(54, 53, .52);
+        }
+        
+            .redes-sociales a:hover{
+                    filter: blur(2px);
+              }
+                .redes-sociales a:hover{
+                transform: translateY(-3px) scale(1.05);
+                box-shadow: 0px 5px 5px 0px rgb(54, 53, .104);
+                filter: none;
+            }
+    }

@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*Estructura*/
+/*Navegador*/
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lora:wght@400;500;600;700&family=Macondo&family=Permanent+Marker&display=swap");
+.logo {
+  width: 5vw; }
+
+.large {
+  font-size: 1.6rem;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: black;
+  margin-left: 1%; }
+  .large .large1 {
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: black;
+    margin-left: 1%;
+    margin-top: 10%; }
+  .large .large2 {
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: black;
+    margin-left: 1%;
+    margin-top: 10%; }
+
+#mainheader {
+  background-image: url(/img/UltimaPrueba3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*Patrocinio*/
+#patrocinio {
+  background-image: linear-gradient(to right, #000, #808080);
+  padding-top: 70px;
+  padding-bottom: 400px; }
+  #patrocinio .patrocinio-box {
+    float: left;
+    width: 32%;
+    text-align: center; }
+  #patrocinio .patrocinio-box img {
+    height: 145px;
+    margin-top: 27%; }
+
+/*Fundadores*/
+#fundadores {
+  text-align: center;
+  padding-bottom: 100px;
+  margin-top: 30%; }
+  #fundadores #fundadores h4 {
+    padding-bottom: 20px; }
+  #fundadores .fundadores-box {
+    float: left;
+    width: 33%;
+    padding: 50px; }
+  #fundadores .fundadores-box img {
+    width: 220px;
+    text-align: center; }
+  #fundadores #redes-fundadores {
+    display: block; }
+  #fundadores .REDES a {
+    color: black; }
+
+/*Guia*/
+#guia {
+  padding-bottom: 50px;
+  margin-top: 40%; }
+  #guia #guia p {
+    text-align: center;
+    padding-top: 100px; }
+  #guia #guia h3 {
+    text-align: center; }
+
+divguia-1 {
+  background-color: black; }
+
+/*¿Que Somos?*/
+#quesomos {
+  text-align: center;
+  margin-top: 30%; }
+  #quesomos #quesomos p {
+    text-align: center;
+    margin-top: 10%; }
+
+/*Footer*/
+#mainfooter {
+  text-align: center;
+  padding: 30px;
+  background-image: url(/img/istockphoto-1128458526-170667a.jpg); }
+
+.redes-sociales {
+  float: right;
+  display: flex;
+  width: 120px;
+  height: 30px; }
+  .redes-sociales .redes-sociales a {
+    margin: 0 5px;
+    line-height: 5px;
+    font-size: 30px;
+    color: #024463;
+    box-shadow: 0px 5px 5px 0px #363501; }
+  .redes-sociales .redes-sociales a:hover {
+    filter: blur(2px); }
+  .redes-sociales .redes-sociales a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0px 5px 5px 0px #363500;
+    filter: none; }
+
+/*Base*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Permanent Marker', cursive;
+  background-color: rgba(145, 103, 49, 0.596);
+  color: rgba(32, 32, 32, 0.808); }
+  html html, body html {
+    scroll-behavior: smooth; }
+  html h1, html h4, html p, body h1, body h4, body p {
+    line-height: 1.4rem; }
+  html p, body p {
+    font-size: 1rem; }
