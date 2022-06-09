@@ -38,6 +38,21 @@
    
 }
 
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 3px;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+.btn-red{
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(145, 103, 49, 0.596);
+    text-align: center;
+}
+
 /*Patrocinio*/
 
 #patrocinio{
@@ -139,6 +154,10 @@
     
 
     
+    h6{
+        text-align: center;
+        font-size: 30px;
+    }
     
     /*Footer*/
     

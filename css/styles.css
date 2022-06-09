@@ -11,14 +11,14 @@
   text-decoration-style: solid;
   color: black;
   margin-left: 1%; }
-  .large .large1 {
+ .large1 {
     font-size: 1.6rem;
     text-decoration-line: underline;
     text-decoration-style: solid;
     color: black;
     margin-left: 1%;
     margin-top: 10%; }
-  .large .large2 {
+.large2 {
     font-size: 1.6rem;
     text-decoration-line: underline;
     text-decoration-style: solid;
@@ -30,6 +30,20 @@
   background-image: url(/img/UltimaPrueba3.jpeg);
   background-repeat: no-repeat;
   background-size: cover; }
+  .btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 3px;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+.btn-red{
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(145, 103, 49, 0.596);
+    text-align: center;
+}
 
 /*Patrocinio*/
 #patrocinio {
@@ -67,10 +81,10 @@
 #guia {
   padding-bottom: 50px;
   margin-top: 40%; }
-  #guia #guia p {
+#guia p {
     text-align: center;
     padding-top: 100px; }
-  #guia #guia h3 {
+#guia h3 {
     text-align: center; }
 
 divguia-1 {
@@ -84,6 +98,10 @@ divguia-1 {
     text-align: center;
     margin-top: 10%; }
 
+    h6{
+      text-align: center;
+      font-size: 30px;
+  }
 /*Footer*/
 #mainfooter {
   text-align: center;
